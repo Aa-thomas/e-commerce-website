@@ -419,6 +419,11 @@ a.button:focus {
   color: #fff;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .navBar {
   background-color: #fff;
   position: fixed;
@@ -457,4 +462,24 @@ a.button:focus {
 
 .slideOutNav {
   display: none;
+}
+
+header {
+  background-color: #f8fbf3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerTextContainer {
+  width: 55%;
+  padding: 0 90px;
 }
