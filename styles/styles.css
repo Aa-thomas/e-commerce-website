@@ -483,3 +483,43 @@ header .headerTextContainer {
   width: 55%;
   padding: 0 90px;
 }
+
+.categoriesGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+.categoriesGallery .items {
+  width: 40%;
+  border-radius: 10%;
+  padding: 45px;
+  text-align: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.categoriesGallery .items:hover, .categoriesGallery .items:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.categoriesGallery .items img {
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+.categoriesGallery .itemOne {
+  background-color: #ffd698;
+}
+.categoriesGallery .itemTwo {
+  background-color: #f4fcff;
+}
+.categoriesGallery .itemThree {
+  background-color: #f8fbf3;
+}
+.categoriesGallery .itemFour {
+  background-color: #fff5f5;
+}
